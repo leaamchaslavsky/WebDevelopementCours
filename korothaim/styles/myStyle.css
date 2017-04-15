@@ -61,6 +61,8 @@ a:hover{
     
 }
 .limodim{
+    list-style:none;
+    padding-bottom:40px;
     color:white;
     font-family:'Amatic SC';
     font-size:18px;
@@ -85,6 +87,20 @@ a{
   
   
 }
+.nav2{
+    text-decoration:none;
+    font-family:'Amatic SC';
+    color:white;
+}
+.nav2 ul li ul {
+     display: none;
+     position: absolute; 
+}
 
+.nav2 ul li:hover ul {
+     display:block;
+      width:400px;
+
+}
 
 
